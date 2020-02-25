@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+h1, h2, h3, h4, h5, p, a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #3C4858;
+}
+
+h1 {
+    text-align: left;
+    font-size: 53.2px;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 62px;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 36.4px;
+    height: 43px;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 18.2px;
+    line-height: 21px;
+}
+
+h5 {
+    color: #777777;
+    font-size: 13.65px;
+}
+
+.letstalk p {
+    text-align: center;
+    margin-top: 38px;
+    font-size: 17.5px;
+    font-weight: 300;
+    line-height: 21px;
+    width: 723px;
+    color: #999999;
+}
+
+.letstalk-contacts p {
+    font-weight: 300;
+    font-size: 18.2px;
+    line-height: 21px;
+    text-align: center;
+    color: #999999;
+}
+
+a {
+    text-decoration: none;
+    color: #9C27B0;
+}
+
+.footer-about a {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #333333;
+}
+
+.footer-copyright p {
+    font-size: 10px;
+    color: #000000;
+    line-height: 11px;
+}
+
+.header-Creative-Tim p {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.header-links p, .header-links-cloud p {
+    margin-right: 30px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.header-container-content-text {
+    font-size: 18.2px;
+    color: #FFFFFF;
+    width: 549px;
+    margin-top: 11px;
+    text-align: left;
+    line-height: 21px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: #E5E5E5;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    height: 726px;
+    background: url(../pictures/fon.png) no-repeat center;
+    background-color: rgb(41, 91, 138);
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 1129px;
+    margin-top: 40px;
+}
+
+.header-container-content {
+    margin-top: 146px;
+}
+
+.header-container-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1128px;
+    height: 24px;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#header-socicon {
+    margin-left: 26px;
+    width: 103px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#butto-container {
+    display: flex;
+}
+
+.header-container-content-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: none;
+    width: 179px;
+    height: 54px;
+    background: #F44336;
+    box-shadow: 0px 2px 2px rgba(244, 67, 54, 0.14);
+    border-radius: 3px;
+    margin-top: 42px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+
+main {
+    margin-top: -60px;
+    ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1380px;
+    height: 2045px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+
+.letstalk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 95px;
+    height: 151px;
+    width: 1380px;
+}
+
+#letstalk-feature {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 161px;
+    height: 214px;
+    width: 1108px;
+}
+
+#letstalk-feature-first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 201px;
+    width: 328px;
+}
+
+#letstalk-feature-second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 201px;
+    width: 328px;
+}
+
+#letstalk-feature-third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 201px;
+    width: 328px;
+}
+
+.letstalk-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 185px;
+    height: 416px;
+    width: 753px;
+}
+
+#letstalk-contacts-button {
+    margin-top: 25px;
+    ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 148px;
+    height: 41px;
+    color: #FFFFFF;
+    font-size: 12px;
+    background: #9C27B0;
+    box-shadow: 0px 2px 2px rgba(156, 39, 176, 0.2);
+    border-radius: 3px;
+}
+
+#letstalk-contacts-fields {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 52px;
+    width: 751px;
+    height: 38px;
+}
+
+.letstalk-contacts-fields-enter {
+    width: 361px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-color: #999999;
+}
+
+.letstalk-contacts-messega {
+    margin-top: 52px;
+    width: 751px;
+    height: 92px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-color: #999999;
+}
+
+.letstalk-icons {
+    margin-top: 15PX;
+    width: 107px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.letstalk-icons2 {
+    margin-top: 15PX;
+    width: 62px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* letstalk-team - блок с командой */
+
+#letstalk-team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 185px;
+    width: 1108px;
+    height: 541px;
+}
+
+#letstalk-team-content {
+    margin-top: 86px;
+    width: 1108px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.letstalk-team-content-person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 352px;
+    height: auto;
+}
+
+/* FOOTER FOOTER FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    width: 1380px;
+    height: 81px;
+}
+
+.footer-about {
+    display: flex;
+    justify-content: space-between;
+    width: 1122px;
+    height: 17px;
+    margin-top: 33px;
+}
+
+.footer-text {
+    width: 321px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-text a {
+    color: black;
+}
+
+#header-links-cloud {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 91px;
+}
+
+#letstalk-team-icons {
+    width: 107px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

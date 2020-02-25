@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+h1, h2, p, a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+
+    margin-top: 31px;
+    margin-bottom: 36px;
+}
+
+h2 {
+    margin-top: 143px;
+    margin-bottom: 33px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+footer a {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+footer p {
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 11px;
+    color: #FFFFFF;
+}
+
+header {
+    width: 1139px;
+    margin-top: 39px;
+    margin-bottom: 60px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navlinks {
+    width: 103px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 27px;
+}
+
+.header-nav-cloud {
+    width: 92px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+    width: 1122px;
+    height: 17px;
+}
+
+footer div {
+    width: 321px;
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #E5E5E5;
+    /* background: url(../pictures/BG.png) no-repeat; */
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 99.99%, rgba(255, 255, 255, 0) 100%), url(../pictures/BG.png) no-repeat center, #C4C4C4;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 72px;
+}
+
+.sign_up {
+    width: 324px;
+    height: 150px;
+    background: linear-gradient(90deg, #AB47BC 0%, #7B1FA2 100%);
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.12), 0px 5px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    position: relative;
+    z-index: 2;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign_up div {
+    width: 129px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form {
+    width: 365px;
+    height: 470px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    margin-top: -111px;
+    position: relative;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form div {
+    width: 308px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 46px;
+}
+
+.header-nav-components {
+    margin-right: 30px;
+}
+
+.form input {
+    width: 100%;
+    margin-left: 15px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-color: #D2D2D2;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #999999;
+}
+
+.form button {
+    margin-top: -3px;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #9C27B0;
+}

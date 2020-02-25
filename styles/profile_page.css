@@ -1,0 +1,148 @@
+h1, h2, p, a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    margin: 0px;
+    padding: 0;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 25.55px;
+    line-height: 30px;
+    color: #3C4858;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+    margin-top: 15px;
+}
+
+main p {
+    margin-top: 44px;
+    width: 604px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #999999;
+}
+
+footer a {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #333333;
+}
+
+footer p {
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 11px;
+    color: #333333;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #E5E5E5;
+}
+
+header {
+    width: 1440px;
+    height: 381px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../pictures/BG_HEADER.png), #C4C4C4;
+}
+
+main {
+    margin-top: -62px;
+    width: 1380px;
+    height: 1195px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1136px;
+}
+
+nav a {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.improfile {
+    margin-top: -90px;
+}
+
+section {
+    width: 555px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+section img {
+    margin-top: 30px;
+    height: auto;
+}
+
+.nav-radiobuttons {
+    width: 303px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-radiobuttons div {
+    width: 100px;
+    height: 104px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.nav-radiobuttons div img {
+    margin-top: 25px;
+}
+
+.nav-radiobuttons div p {
+    margin-top: 20px;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #555555;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+    width: 1122px;
+    height: 17px;
+    margin: 33px;
+}
+
+footer div {
+    width: 321px;
+    display: flex;
+    justify-content: space-between;
+}
