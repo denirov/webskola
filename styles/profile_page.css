@@ -146,3 +146,31 @@ footer div {
     display: flex;
     justify-content: space-between;
 }
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navlinks {
+    width: 103px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 27px;
+}
+
+.header-nav-cloud {
+    width: 92px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
