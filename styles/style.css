@@ -24,6 +24,8 @@ h2 {
 }
 
 h3 {
+    margin-top: 31px;
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
@@ -36,6 +38,8 @@ h4 {
 }
 
 h5 {
+    margin-top: 7px;
+    margin-bottom: 35px;
     color: #777777;
     font-size: 13.65px;
 }
@@ -351,10 +355,11 @@ main {
 }
 
 #header-links-cloud {
+    width: 92px;
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    width: 91px;
+    justify-content: space-between;
 }
 
 #letstalk-team-icons {
@@ -362,4 +367,8 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.letstalk-contacts h2 {
+    margin-bottom: 38px;
 }
