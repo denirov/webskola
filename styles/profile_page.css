@@ -3,7 +3,7 @@ h1, h2, p, a {
     font-style: normal;
     margin: 0px;
     padding: 0;
-    color: #000000;
+    color: #FFFFFF;
     text-decoration: none;
     text-align: center;
     margin-block-end: 0px;
@@ -55,16 +55,9 @@ body {
     background: #E5E5E5;
 }
 
-header {
-    width: 1440px;
-    height: 381px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../pictures/BG_HEADER.png), #C4C4C4;
-}
-
 main {
     margin-top: -62px;
     width: 1380px;
-    height: 1195px;
     background: #FFFFFF;
     display: flex;
     flex-direction: column;
@@ -93,9 +86,8 @@ nav a {
 section {
     width: 555px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
 }
 
 section img {
@@ -147,7 +139,19 @@ footer div {
     justify-content: space-between;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    height: 381px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../pictures/BG_HEADER.png), #C4C4C4;
+}
+
+
+
 header nav {
+    margin-top: 36px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -173,4 +177,8 @@ header div {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+.header-nav-components {
+    margin-right: 30px;
 }

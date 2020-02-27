@@ -53,6 +53,7 @@ header {
 }
 
 header nav {
+    width: 1139px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
