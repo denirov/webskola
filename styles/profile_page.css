@@ -96,6 +96,7 @@ section img {
 }
 
 .nav-radiobuttons {
+    margin-top: 77px;
     width: 303px;
     display: flex;
     flex-direction: row;
@@ -121,8 +122,6 @@ section img {
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
-
-    color: #555555;
 }
 
 footer nav {
@@ -181,4 +180,14 @@ header div {
 
 .header-nav-components {
     margin-right: 30px;
+}
+
+.studio {
+    background: #9C27B0;
+    box-shadow: 0px 4px 20px rgba(156, 39, 176, 0.45);
+    border-radius: 4px;
+}
+
+main nav .studio p {
+    color: #FFFFFF;
 }
